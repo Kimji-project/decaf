@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    background-color: white;
+    min-width: 1320px;
+}
+
+a {
+    color: #123341;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  color: #123341;
+}
+
+/* ------------------------------------------------ */
+
+
+  /* 비주얼 */
+
+  #visual{
+    overflow: hidden;
+  }
+
+  #visual img{
+    width: 100%;
+    display: block;
+  }
+
+  .v_inner{
+    margin: 0 auto;
+  }
+
+/* 컨텐츠 */
+
+#contents{
+    position: relative;
+    background: url(../images/commu_logobg.png) no-repeat 100% 200%;
+}
+
+.c_center{
+    width: 1320px;
+    margin: 0px auto;
+}
+
+/* 검색창 */
+
+.searchbar{
+    width: 1320px;
+    margin: 30px 0 0;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+#eventsearch{
+    margin-left: 970px;
+    padding: 0 60px 0 20px;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 0px;
+    background: url(../images/commu_searchbg.png) no-repeat 95% 50% #eee;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+
+/* 이너 */
+
+.c_inner{
+    height: 1200px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.c_inner ul{
+    /* margin-top: 50px; */
+    margin: 50px auto 0;
+}
+
+/* 뉴스 li */
+
+.news{
+  width: 1230px;
+  height: 240px;
+  padding-top: 30px;
+  border-top: 1px dotted #123341;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.news:nth-child(4){
+  border-bottom: 1px dotted #123341;
+  margin-bottom: 80px;
+}
+
+.news a img{
+  width: 450px;
+  height: 180px;
+  float: left;
+}
+
+.newsinfo{
+  width: 780px;
+  height: 180px;
+  float: right;
+  background-color: #eee;
+}
+
+.newsinfo p{
+  text-align: left;
+}
+
+.newstitle{
+  font-size: 24px;
+  margin: 40px 0 0 40px;
+}
+
+.newsdate{
+  font-size: 18px;
+  margin: 60px 0 0 40px;
+}
+
+/* 호버 */
+
+.news a:hover .newsinfo{
+  background-color: #123341;
+}
+
+/* 모어 버튼 */
+
+.wantmore{
+  height: 120px;
+  text-align: center;
+}
+
+.wantmore a{
+  height: 60px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #123341;
+  padding: 16px 50px;
+  font-size: 22px;
+}
